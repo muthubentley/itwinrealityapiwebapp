@@ -19,7 +19,7 @@ IMJS_AUTH_CLIENT_SCOPES=""
 
 - When you are ready to build a production application, [register here](https://developer.bentley.com/register/).
 
-You should also add a valid iTwinId and iModelId for your user in the this file:
+You should also add a valid iTwinId for your user in the this file:
 
 ```
 # ---- Test ids ----
@@ -28,8 +28,8 @@ IMJS_ITWIN_ID = ""
 
 - For the IMJS_ITWIN_ID variable, you can use the id of one of your existing iTwins. You can obtain their ids via the [iTwin REST APIs](https://developer.bentley.com/apis/itwins/operations/get-itwin/).
 
-Install dependencies: 
+## Install dependencies: 
 ### `npm install`
 
-Run the app:
+## Run the app:
 ### `npm run start`
